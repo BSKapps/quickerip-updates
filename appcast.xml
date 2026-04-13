@@ -13,8 +13,8 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.0/Quicker.IP.2.1.0.dmg"
-                sparkle:edSignature="WiccjJ2mu5PcvxbzZILwE0JDwT/Yw2fnbnXtdmrm4KLrhtUF/m5kUGSUMo+dRpoe9BwF8M8sFcBazw8w/tD9Cg=="
-                length="4558681"
+                sparkle:edSignature="3FDH/JcCC1jG3yyBKScdCODT7XKNnHVUOAavr0uIMp46BViE6iCY1Y0JmTclSaCdEnuFSYdiJS41w34HhmDZBQ=="
+                length="4560635"
                 type="application/octet-stream"/>
         </item>
     </channel>

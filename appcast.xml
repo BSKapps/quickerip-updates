@@ -6,6 +6,18 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>Quicker IP 2.1.1</title>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.1/Quicker.IP.2.1.1.zip"
+                sparkle:edSignature="aTJ+s6giVI3zD8ulf862N+tITQ1t9T0rLtG4aIdHsJb4IMMAqi0ejJfZuk8tgl958zSGts/kJ6lDbbbRojl9Dg=="
+                length="3978160"
+                type="application/zip"/>
+        </item>
+        <item>
             <title>Quicker IP 2.1.0</title>
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>

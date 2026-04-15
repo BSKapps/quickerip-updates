@@ -6,6 +6,23 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>Quicker IP 2.1.1</title>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <pubDate>Wed, 15 Apr 2026 03:30:00 +1000</pubDate>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Quicker IP 2.1.1</h3>
+                <p>Bug fixes and performance improvements.</p>
+                <p><b>Note:</b> your license may need to be re-entered after updating. If you run out of activation slots, contact <a href="mailto:support@bskapps.com">support@bskapps.com</a> to have one renewed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.1/Quicker.IP.2.1.1.dmg"
+                sparkle:edSignature="Ka+/VOEOUuisMd+SwfAmeZo6BU6IcrJGdX8TiThfVdDdWcvoL+CgIXSzGRNVlhaD9mAp3DX5Gisq+FJIgXEYAA=="
+                length="4579026"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Quicker IP 2.1.0</title>
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>

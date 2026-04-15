@@ -17,9 +17,9 @@
                 <p><b>Note:</b> your license may need to be re-entered after updating. If you run out of activation slots, contact <a href="mailto:support@bskapps.com">support@bskapps.com</a> to have one renewed.</p>
             ]]></description>
             <enclosure
-                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.1/Quicker.IP.2.1.1.dmg"
-                sparkle:edSignature="Ka+/VOEOUuisMd+SwfAmeZo6BU6IcrJGdX8TiThfVdDdWcvoL+CgIXSzGRNVlhaD9mAp3DX5Gisq+FJIgXEYAA=="
-                length="4579026"
+                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.1/Quicker.IP.2.1.1.zip"
+                sparkle:edSignature="yHwfJO+QYu50HHz9Woln9ApiXgNyM2wikK7BoOXY53zbfP3aInw+g4w6mg9mxxUKIIRLdqJnO3Hl2r78OtLMCg=="
+                length="3973839"
                 type="application/octet-stream"/>
         </item>
         <item>

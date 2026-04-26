@@ -1,54 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>Quicker IP</title>
-        <link>https://raw.githubusercontent.com/BSKapps/quickerip-updates/main/appcast.xml</link>
-        <description>Quicker IP update feed</description>
+        <title>Quicker IP DEBUG FEED</title>
+        <link>http://localhost:8421/appcast.xml</link>
+        <description>Local debug feed - never ship</description>
         <language>en</language>
         <item>
-            <title>Quicker IP 2.1.2</title>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
-            <pubDate>Wed, 15 Apr 2026 23:37:00 +1000</pubDate>
+            <title>Quicker IP 99.0 DEBUG</title>
+            <sparkle:version>9999</sparkle:version>
+            <sparkle:shortVersionString>99.0</sparkle:shortVersionString>
+            <pubDate>Sun, 26 Apr 2026 23:59:59 +1000</pubDate>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h3>Quicker IP 2.1.2</h3>
-                <p>Bug fixes and performance improvements.</p>
-                <p><b>Note:</b> if you are updating from 2.0.x, you will need to re-enter your license key. Affected customers have been given an extra activation so you can safely re-activate without losing a slot. If you run out, contact <a href="mailto:support@bskapps.com">support@bskapps.com</a>.</p>
+                <h3>DEBUG TEST UPDATE</h3>
+                <p>This is a fake update used to reproduce the Sparkle window-order bug. Do NOT click Install.</p>
             ]]></description>
             <enclosure
                 url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.2/Quicker.IP.2.1.2.zip"
-                sparkle:edSignature="FMRugnQNs/uc+Uiypd5Pf9Ud8Bp70BCZ90Sfw7gBxXQ7e5m7rFpHD/5monkGsT/T2/+XUjqLbJYYZ2H528WSCg=="
-                length="3979546"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Quicker IP 2.1.1</title>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
-            <pubDate>Wed, 15 Apr 2026 03:30:00 +1000</pubDate>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>Quicker IP 2.1.1</h3>
-                <p>Bug fixes and performance improvements.</p>
-                <p><b>Note:</b> your license may need to be re-entered after updating. If you run out of activation slots, contact <a href="mailto:support@bskapps.com">support@bskapps.com</a> to have one renewed.</p>
-            ]]></description>
-            <enclosure
-                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.1/Quicker.IP.2.1.1.zip"
-                sparkle:edSignature="yHwfJO+QYu50HHz9Woln9ApiXgNyM2wikK7BoOXY53zbfP3aInw+g4w6mg9mxxUKIIRLdqJnO3Hl2r78OtLMCg=="
-                length="3973839"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Quicker IP 2.1.0</title>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
-            <pubDate>Sun, 13 Apr 2026 00:00:00 +0000</pubDate>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.1.0/Quicker.IP.2.1.0.dmg"
-                sparkle:edSignature="3FDH/JcCC1jG3yyBKScdCODT7XKNnHVUOAavr0uIMp46BViE6iCY1Y0JmTclSaCdEnuFSYdiJS41w34HhmDZBQ=="
-                length="4560635"
+                sparkle:edSignature="CeNuIx9VHWgfDb+LSom4T3UFXxrR/WPcC4UFRA4Ir6t0DW6xa7AI7tCG6dpoAf6ydb+iZ2Al55+uWg6PyHXlBw=="
+                length="3732652"
                 type="application/octet-stream"/>
         </item>
     </channel>

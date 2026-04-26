@@ -6,6 +6,27 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>Quicker IP 2.2</title>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+            <pubDate>Sun, 26 Apr 2026 21:00:00 +1000</pubDate>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Quicker IP 2.2</h3>
+                <ul>
+                    <li>Service Order panel: reorder network services from the menu</li>
+                    <li>Edit Locations: rename and delete locations in place</li>
+                    <li>Edit Presets: quick edit of saved IP presets</li>
+                </ul>
+                <p>Bug fixes and performance improvements.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.2/Quicker.IP.2.2.zip"
+                sparkle:edSignature="FbdI8nR9f6QYwzzdcUHQvMzWeWq3T56HcpRJE785MkugFBMT2OueQycsWaFHg6bkFFZ5/ZVYc9aTS9cvVHI/AA=="
+                length="3733948"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Quicker IP 2.1.2</title>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>

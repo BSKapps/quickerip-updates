@@ -6,6 +6,30 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.4</title>
+            <pubDate>Sun, 28 Jun 2026 01:21:45 +1000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Per-adapter DNS: Automatic, Cloudflare, Google, Quad9, or custom servers</li>
+<li style="margin-bottom:6px">New Packet Loss monitor (Pro): live dropped-ping timeline with CSV export</li>
+<li style="margin-bottom:6px">Speed Test now grades bufferbloat (loaded latency during the test)</li>
+<li style="margin-bottom:6px">Smarter LAN scan: subnet-mask aware, scoped to the adapter you scan, and finds mDNS devices on that wire including link-local or static gear (Dante etc.) stranded on another subnet that other tools hide</li>
+<li style="margin-bottom:6px">Scan results now show device names and the network protocol (Dante, NDI, AirPlay, printer and more) instead of raw hostnames and service strings; hover a row for the technical hostname</li>
+<li style="margin-bottom:6px">Ping now shows the target's name (reverse DNS / Bonjour) next to the IP when one is found</li>
+<li style="margin-bottom:6px">Join Subnet: right-click an out-of-subnet device to hop your adapter onto its network</li>
+<li style="margin-bottom:6px">Warns when an adapter's gateway is outside its own subnet and cannot be reached</li>
+<li style="margin-bottom:6px">Flags a duplicate IP: a red marker on the IP row of any two adapters sharing the same address, now also explained in More Info</li>
+<li style="margin-bottom:6px">Scan results: popup title now updates to the adapter you just scanned (previously kept the prior scan's name)</li>
+<li style="margin-bottom:6px">Option-click any adapter's chevron to collapse or expand every adapter at once</li>
+<li style="margin-bottom:6px">Plus smaller fixes: per-adapter ping routing, expanded adapters persist, menu dropdown holds a steady width, long preset names truncate instead of stretching the menu, the scan results window updates to the adapter and range the moment a scan starts, plus security and stability hardening</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.4/Quicker.IP.2.4.zip" length="3865303" type="application/octet-stream" sparkle:edSignature="oAndF6mIWDqVomtUGvxw8U/ulpA2GPkwlnGto3BlJv3d/yjwaPi+3BsfJY1ficHre1295ySCxvvhEHDpFIAGDQ=="/>
+        </item>
+        <item>
             <title>Quicker IP 2.3</title>
             <sparkle:version>16</sparkle:version>
             <sparkle:shortVersionString>2.3</sparkle:shortVersionString>

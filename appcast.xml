@@ -6,6 +6,22 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.4.1</title>
+            <pubDate>Tue, 30 Jun 2026 11:19:22 +1000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">More Info details (IPv6, Wi-Fi signal, link stats) now update live while the menu's open</li>
+<li style="margin-bottom:6px">Fixed a settings window memory leak</li>
+<li style="margin-bottom:6px">Fixed a speed test ping/jitter glitch</li>
+<li style="margin-bottom:6px">Fixed rescan button in the scan results window</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.4.1/Quicker.IP.2.4.1.zip" length="3873639" type="application/octet-stream" sparkle:edSignature="xD6jclDxTMf7IBju/NxY95Ly0unIp7AGKwhwqcxgsL1toRKBjQZA/tAgxwhGtDM8FuUbB9u+V71PuEfcx5rmAg=="/>
+        </item>
+        <item>
             <title>2.4</title>
             <pubDate>Sun, 28 Jun 2026 01:21:45 +1000</pubDate>
             <sparkle:version>17</sparkle:version>

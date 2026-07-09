@@ -6,6 +6,30 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.4.2</title>
+            <pubDate>Fri, 10 Jul 2026 00:48:34 +1000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Fixed the LAN scan missing Dante and other UDP-advertised devices: device names, Dante type badges and orange other-subnet rows now appear on a real Dante network</li>
+<li style="margin-bottom:6px">Fixed a rare crash on Macs left running for weeks (CPU meter tick counter overflow)</li>
+<li style="margin-bottom:6px">Fixed the menu-bar speed readout showing huge false spikes once an adapter passed 4 GB of traffic</li>
+<li style="margin-bottom:6px">Fixed the wrong device being acted on when right-clicking a scan result while a rescan finished</li>
+<li style="margin-bottom:6px">Fixed a rescan re-triggered right after cancelling doubling up the network discovery</li>
+<li style="margin-bottom:6px">Packet Loss monitor now supports IPv6 targets instead of reporting 100% loss</li>
+<li style="margin-bottom:6px">Save Preset now warns before replacing an existing preset of the same name</li>
+<li style="margin-bottom:6px">Speed Test shows a dash instead of a misleading "0 ms" green ping when latency can't be measured</li>
+<li style="margin-bottom:6px">Fixed a rare hang if the network helper became unresponsive; the helper now also works on macOS 14.6 through 15.6</li>
+<li style="margin-bottom:6px">Menu opens faster: network locations now load in the background instead of briefly blocking the menu</li>
+<li style="margin-bottom:6px">Scan results window now clears when you clear results, and its Rescan button syncs when you switch adapters</li>
+<li style="margin-bottom:6px">Fixed the update window opening behind other windows when installing an update. The update into this version may still do it once, since your current version controls that step - click the Quicker IP dock icon to bring it forward if so; fixed for all updates after this</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.4.2/Quicker.IP.2.4.2.zip" length="3907972" type="application/octet-stream" sparkle:edSignature="9V7kAgYGSUP2/lNuPT6j7/5O/dAxN6sR406sWHcOAou7cCPhBxEOeFz0SOkcdKIEcoMqfDKfQklYCbHaUlfmBg=="/>
+        </item>
+        <item>
             <title>2.4.1</title>
             <pubDate>Tue, 30 Jun 2026 11:19:22 +1000</pubDate>
             <sparkle:version>18</sparkle:version>

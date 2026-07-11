@@ -6,6 +6,23 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.4.3</title>
+            <pubDate>Sat, 11 Jul 2026 15:54:11 +1000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Closing and reopening the lid no longer fires false Disconnected / Connected notifications; alerts settle briefly after wake and only fire if the network actually changed</li>
+<li style="margin-bottom:6px">Applying a Manual IP or Subnet Hop no longer fires false Disconnected / Connected notifications while the adapter re-binds</li>
+<li style="margin-bottom:6px">Speed test results in the menu now show a dash like the results window when latency can't be measured</li>
+<li style="margin-bottom:6px">Fixed a cancelled speed test being able to leave one download stream briefly running in the background</li>
+<li style="margin-bottom:6px">Fixed a rare crash risk when a network command timed out mid-read</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.4.3/Quicker.IP.2.4.3.zip" length="3909863" type="application/octet-stream" sparkle:edSignature="zA4iVv5NQ/JuvytN8I1y3Pv+TTgOvOwPOJ26eYshc8pErzdhFFn4/Dff1JLcna6JgseGkAtS+CGGMBohXIgICg=="/>
+        </item>
+        <item>
             <title>2.4.2</title>
             <pubDate>Fri, 10 Jul 2026 00:48:34 +1000</pubDate>
             <sparkle:version>19</sparkle:version>

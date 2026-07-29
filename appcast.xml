@@ -6,6 +6,28 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.5</title>
+            <pubDate>Wed, 29 Jul 2026 18:14:50 +1000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Collapsed adapters now show their live IP address on the header row, so you can read every adapter's address without expanding anything</li>
+<li style="margin-bottom:6px">A header IP only appears when the adapter actually has a live address, so an IP on a collapsed row is always real; expand or hover an adapter to see a configured static that isn't live</li>
+<li style="margin-bottom:6px">Collapsed adapter headers now show the active preset name next to the Wi-Fi network name</li>
+<li style="margin-bottom:6px">The interface name is hidden while an adapter is collapsed and still appears in More Info and the hover menu</li>
+<li style="margin-bottom:6px">Public IP, IP, Subnet, Gateway, DNS, More Info, Preset and Scan now line up on one column, in the menu and in the hover menus</li>
+<li style="margin-bottom:6px">Tighter, more even spacing in each adapter's section, with a single small break between the address rows and Preset and Scan</li>
+<li style="margin-bottom:6px">Icons now appear only on items that open something outside the menu, so the rest of the menu reads as one clean column; Settings keeps its gear</li>
+<li style="margin-bottom:6px">The Settings row now sizes itself to suit whether the info panel is showing</li>
+<li style="margin-bottom:6px">The speed test hover menu now shows the Loaded result, matching the results window</li>
+<li style="margin-bottom:6px">Updated the built-in manufacturer list so scan results name recently released hardware</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.5/Quicker.IP.2.5.zip" length="3922653" type="application/octet-stream" sparkle:edSignature="3BxtD7ZL/2SmahVW6DWQ/AJzfrKE/NnvY4NVD7ppwSxxI95hNJJhbVty5Awk3dMJn0gEJU3CzqBo2P99v9M2BQ=="/>
+        </item>
+        <item>
             <title>2.4.3</title>
             <pubDate>Sat, 11 Jul 2026 15:54:11 +1000</pubDate>
             <sparkle:version>20</sparkle:version>

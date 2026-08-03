@@ -6,6 +6,27 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.6</title>
+            <pubDate>Mon, 03 Aug 2026 22:18:48 +1000</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Collapsed adapters now show their preset and IP on a second line (Turn the summary line off in Settings if you prefer plain rows)</li>
+<li style="margin-bottom:6px">Every adapter shows its interface name (en), lined up on the right</li>
+<li style="margin-bottom:6px">Long names and text now auto scroll when you hover on them</li>
+<li style="margin-bottom:6px">Drag presets into the order you want</li>
+<li style="margin-bottom:6px">More Info is now Network Info, and sits below Preset and Scan</li>
+<li style="margin-bottom:6px">Network Info adds IGMP Query, Audio Clock, Grandmaster and Clock Sync</li>
+<li style="margin-bottom:6px">Clear the error counters, and see how long each has been counting</li>
+<li style="margin-bottom:6px">Quicker IP warns you before putting an address on an adapter that already has one</li>
+<li style="margin-bottom:6px">General layout, wording and colour improvements across the menu</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.6/Quicker.IP.2.6.zip" length="4100636" type="application/octet-stream" sparkle:edSignature="DqkkQP9MfmYI5Kf6TuX24RLPFZTDl1bBp3ozkQrNG8+H74rlontivyfWydN7qgnDHGTYWFY8rT1wft07xCk/DA=="/>
+        </item>
+        <item>
             <title>2.5</title>
             <pubDate>Wed, 29 Jul 2026 18:14:50 +1000</pubDate>
             <sparkle:version>21</sparkle:version>

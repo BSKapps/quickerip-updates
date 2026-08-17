@@ -6,6 +6,30 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.7</title>
+            <pubDate>Tue, 18 Aug 2026 00:08:51 +1000</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li style="margin-bottom:6px">Scans now spot and name Sennheiser, Blackmagic and QLab devices</li>
+<li style="margin-bottom:6px">Each device in scan results lists every protocol it speaks</li>
+<li style="margin-bottom:6px">Scans and IP changes are noticeably faster</li>
+<li style="margin-bottom:6px">Scan results name the real maker, and mark devices hiding behind a randomised address</li>
+<li style="margin-bottom:6px">Scan results window now auto sizes columns and remembers your layout</li>
+<li style="margin-bottom:6px">Join Subnet shows the exact address it will take before you confirm</li>
+<li style="margin-bottom:6px">Get a notification if any of your adapter names are reset</li>
+<li style="margin-bottom:6px">Service Order highlights the service you came from and marks hidden services</li>
+<li style="margin-bottom:6px">Renaming services and locations, and deleting services, act on exactly the one you picked and no longer ask for Touch ID</li>
+<li style="margin-bottom:6px">Quicker IP asks for your admin password once after this update, then goes back to working silently</li>
+<li style="margin-bottom:6px">Fixed the Public IP line disappearing while the menu is open, and rows with nothing to report now sit empty instead of showing a dash</li>
+<li style="margin-bottom:6px">Network Info no longer disappears on inactive adapters</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.7/Quicker.IP.2.7.zip" length="4352955" type="application/octet-stream" sparkle:edSignature="Ustq8aj/kb5HXRk9jbyL/RuvAyYN1rwRQiGbK0YryRl/TF1f/f2gAn7RXYMoiYPgoBGer0iUQrXNmaCBttUcDw=="/>
+        </item>
+        <item>
             <title>2.6</title>
             <pubDate>Mon, 03 Aug 2026 22:18:48 +1000</pubDate>
             <sparkle:version>22</sparkle:version>

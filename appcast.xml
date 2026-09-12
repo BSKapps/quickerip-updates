@@ -6,6 +6,45 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.9</title>
+            <pubDate>Sat, 12 Sep 2026 10:25:54 +1000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p style="font-weight:600;margin:12px 0 6px">What's New</p>
+<ul>
+<li style="margin-bottom:6px">Updates no longer pop up on their own; an Update Available item waits under Settings</li>
+<li style="margin-bottom:6px">When Wi-Fi is off, its row says Wi-Fi Off and offers Turn Wi-Fi On</li>
+<li style="margin-bottom:6px">Sort scan results by clicking any column heading</li>
+<li style="margin-bottom:6px">Scan shows an address in red when two devices claim it, one row per claimant</li>
+<li style="margin-bottom:6px">Scan names Shure and Yamaha gear by their control port; a Yamaha console shows Device Control and Mixer Control as separate addresses</li>
+<li style="margin-bottom:6px">Scan names Windows PCs, and Range Scan is faster, finds devices that ignore ping and remembers the last ranges you typed</li>
+<li style="margin-bottom:6px">Scan finds lighting nodes and desks by Art-Net and sACN</li>
+<li style="margin-bottom:6px">Clock Sync warns when two devices both claim to be the audio clock</li>
+<li style="margin-bottom:6px">Get a notification when the audio clock leader changes</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Fixes</p>
+<ul>
+<li style="margin-bottom:6px">Network Info now warns, greyed, when an unplugged static adapter would overlap a live subnet</li>
+<li style="margin-bottom:6px">Scan names no longer carry meaningless code strings, and CSV exports name protocols under a Type column</li>
+<li style="margin-bottom:6px">Clock rows no longer flicker when a second PTP domain shares the network</li>
+<li style="margin-bottom:6px">After login or waking from sleep, old DHCP addresses and Wi-Fi names no longer show while the network is read; static addresses stay greyed, and nothing can be changed until the first read is in</li>
+<li style="margin-bottom:6px">Applying a static or reserved address always checks that the address is free, and Save Current as Preset saves the address the adapter has right now</li>
+<li style="margin-bottom:6px">Join Subnet and Ping from an old Range Scan now warn that the network has changed</li>
+<li style="margin-bottom:6px">Switching Network Location in System Settings no longer fires a burst of Disconnected notifications</li>
+<li style="margin-bottom:6px">A Subnet Hop that is no longer in place no longer shows as active, and IPv4 Off refuses to run when the current settings cannot be read</li>
+<li style="margin-bottom:6px">IGMP and clock rows no longer show on an adapter with no working IP, and start fresh after sleep or a Location switch</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Known Issues</p>
+<ul>
+<li style="margin-bottom:6px">Switching to a Network Location whose services have different names opens every adapter collapsed</li>
+<li style="margin-bottom:6px">A scan running on an adapter that is hidden or filtered out of the menu cannot be stopped until it finishes</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.9/Quicker.IP.2.9.zip" length="4565483" type="application/octet-stream" sparkle:edSignature="EIeyu0vbZivqVDJ94Zp47LwB82/TsSIrEJnGOPwQJEbErWzjwS8muiY7VSU0rIfDoOVNzwGYnFgQqGkpQ7TKBg=="/>
+        </item>
+        <item>
             <title>2.8</title>
             <pubDate>Fri, 21 Aug 2026 22:43:57 +1000</pubDate>
             <sparkle:version>24</sparkle:version>

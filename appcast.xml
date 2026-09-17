@@ -6,6 +6,37 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.10</title>
+            <pubDate>Thu, 17 Sep 2026 12:20:48 +1000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>2.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p style="font-weight:600;margin:12px 0 6px">What's New</p>
+<ul>
+<li style="margin-bottom:6px">Add Address puts a second address on a wired port, for switches carrying two subnets</li>
+<li style="margin-bottom:6px">A preset held by other adapters now shows their ports, such as en8, after its name; hover for the adapter names</li>
+<li style="margin-bottom:6px">Get a notification when two network services share a name, with a pointer to rename one</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Fixes</p>
+<ul>
+<li style="margin-bottom:6px">Fixed a crash at launch on Macs with two network services sharing a name</li>
+<li style="margin-bottom:6px">A static address with no router now lands on the right port when two network services share a name</li>
+<li style="margin-bottom:6px">Quicker IP asks for your admin password once after this update, then goes back to working silently</li>
+<li style="margin-bottom:6px">Rescan clears the old device list while it runs, so every scan starts fresh</li>
+<li style="margin-bottom:6px">Speed Test reports a failure instead of a low number when the connection drops during the test</li>
+<li style="margin-bottom:6px">Switching Network Location keeps the same adapters expanded, even when the services carry different names</li>
+<li style="margin-bottom:6px">The audio clock notification now says Grandmaster Changed, matching the Network Info row</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Known Issues</p>
+<ul>
+<li style="margin-bottom:6px">Two network services with the same name share one active preset and hide together until one of them is renamed</li>
+<li style="margin-bottom:6px">Restoring or applying a static address with no router refuses when two network services share a name, until one of them is renamed</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.10/Quicker.IP.2.10.zip" length="4614914" type="application/octet-stream" sparkle:edSignature="bVB70Rl7mz1AuKRvPK7548I7Y49dN6QB1t+0aKQyQYhuDSNO8PJclc6RzWqKun+ElcIwY1aah7n/ml26zIZVAw=="/>
+        </item>
+        <item>
             <title>2.9</title>
             <pubDate>Sat, 12 Sep 2026 10:25:54 +1000</pubDate>
             <sparkle:version>25</sparkle:version>

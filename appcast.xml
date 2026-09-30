@@ -6,6 +6,45 @@
         <description>Quicker IP update feed</description>
         <language>en</language>
         <item>
+            <title>2.11</title>
+            <pubDate>Thu, 01 Oct 2026 08:09:41 +1000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>2.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p style="font-weight:600;margin:12px 0 6px">What's New</p>
+<ul>
+<li style="margin-bottom:6px">Edit Services brings Service Order and Edit Visible Services together: reorder, rename, delete, add and hide services in one place, each with its port, such as en8, in a window you can drag taller. It and Edit Presets open with the service or preset you are on outlined</li>
+<li style="margin-bottom:6px">Range Scan accepts a subnet in one go: type 192.168.1.0/24 in Start IP, hit tab or enter and both fields fill in. Scan Results can list hostnames instead of names: right-click name column heading and choose Show Hostnames</li>
+<li style="margin-bottom:6px">Edit Locations has New Location and Switch buttons</li>
+<li style="margin-bottom:6px">Each Network Location keeps its own hidden and expanded services, and renaming a location keeps its preset and Restore rows</li>
+<li style="margin-bottom:6px">IPv4 Off and Join Subnet apply without a confirmation pop-up; Join Subnet finds a free address faster, stops if another adapter is already on that subnet and sends a notification once it has joined</li>
+<li style="margin-bottom:6px">The Packet Loss window is cleaner: stats in two columns, a blue chart with yellow spikes and red lost pings, and no confirmation pop-up to start, restart or reset. Ping results use the same two-column look, and the Info Panel's Ping shows lost pings in yellow and timeout when the gateway stops answering</li>
+<li style="margin-bottom:6px">Speed Test results show which adapter the test ran over</li>
+<li style="margin-bottom:6px">Grandmaster is now Clock Leader, as in Dante Controller, and names the Dante leader without a scan; a PTPv2 clock running alongside gets its own row</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Fixes</p>
+<ul>
+<li style="margin-bottom:6px">Two services sharing a name each keep their own presets, hidden state, IPv4 Off restore and Network Info, and a preset applied, restored or saved on one no longer affects the other</li>
+<li style="margin-bottom:6px">Starting a LAN Scan or Range Scan from the menu now clears the old results first, like Rescan already did</li>
+<li style="margin-bottom:6px">Renew DHCP Lease now says so when no DHCP server answers, instead of reporting it renewed</li>
+<li style="margin-bottom:6px">The Subnet Hop tick clears when the address is changed outside Quicker IP, and a service renamed in System Settings while Quicker IP is closed keeps its preset, hidden and expanded state</li>
+<li style="margin-bottom:6px">Two services on one port each show their live speed and clock rows, scanning one no longer shows a hidden one, and Add Address refuses 169.254 and other addresses a port cannot use</li>
+<li style="margin-bottom:6px">The foot-of-menu row now reads Show N Inactive Adapters, and Info Panel item switches grey out while Show Info Panel is off</li>
+<li style="margin-bottom:6px">Hiding the service that carries your internet, such as Wi-Fi, no longer makes Speed Test, the Info Panel, Public IP or the menu bar act as if you are offline</li>
+<li style="margin-bottom:6px">Copying a Network Location no longer adds old unused adapters as red rows, and a switched-off service stays off in the copy</li>
+<li style="margin-bottom:6px">Notifications name the adapter with its port, such as Dante (en8), no longer report a name reset after a location switch, and no longer miss a Static adapter's cable going in or out or a DHCP address falling back to self-assigned</li>
+<li style="margin-bottom:6px">An address saved only on a disconnected adapter now gets a lighter note instead of a conflict warning</li>
+<li style="margin-bottom:6px">Quicker IP asks for your admin password once after this update, then goes back to working silently</li>
+</ul>
+<p style="font-weight:600;margin:12px 0 6px">Known Issues</p>
+<ul>
+<li style="margin-bottom:6px">None known</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/BSKapps/quickerip-updates/releases/download/v2.11/Quicker.IP.2.11.zip" length="5098123" type="application/octet-stream" sparkle:edSignature="JmPJkMyblvhFHQJHLwPgbHMpRHzy6ebMx3vQEprg1B41jkIVn7J/koc4xtgHwCfaYXxGHpQ77Cpk5ULmx1/kAQ=="/>
+        </item>
+        <item>
             <title>2.10</title>
             <pubDate>Thu, 17 Sep 2026 12:20:48 +1000</pubDate>
             <sparkle:version>26</sparkle:version>
